@@ -1,0 +1,43 @@
+<title>
+  世界資訊網
+</title>
+<div class="logo">
+  <img src="https://openclipart.org/download/218125/3d-Earth-Globe.svg" width="150">
+  <div class="intitle ">
+  <font face="標楷體">World Information</font>
+</div>
+</div>
+<div class="select">
+
+<select name="select">
+  <option value="value1">人口</option> 
+  <!--<option value="value2" selected>平均人口擁有土地</option>-->
+  <!--<option value="value3"></option>-->
+</select>
+</div>
+
+
+div.intitle{
+  font-size:4em;
+  text-align:center;
+  position: relative;
+  top: -115px;
+  left: 40px;
+
+}
+div.logo{
+  display:inline;
+}
+div.select{
+  text-align:right;
+  position: relative;
+  top: -100px;
+  background-color:rgba(255,255,255,0.50);
+  }
+
+body {
+  background-image:url( 'http://image5.tuku.cn/wallpaper/Landscape%20Wallpapers/9777_2560x1600.jpg');
+  background-size:100vw 100vh;
+  background-repeat: no-repeat;
+
+}
