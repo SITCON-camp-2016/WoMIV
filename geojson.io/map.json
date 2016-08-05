@@ -22187,7 +22187,8 @@
       "type": "Feature",
       "id": "IND",
       "properties": {
-        "name": "India"
+        "name": "India",
+		"fill": "#00FF00"
       },
       "geometry": {
         "type": "Polygon",
@@ -42145,7 +42146,8 @@
       "type": "Feature",
       "id": "USA",
       "properties": {
-        "name": "United States of America"
+        "name": "United States of America",
+		"fill": "#0000FF"
       },
       "geometry": {
         "type": "MultiPolygon",
