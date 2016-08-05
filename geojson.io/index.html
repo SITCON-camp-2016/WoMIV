@@ -6,7 +6,7 @@
   <link href='lib/mapbox.js/latest/mapbox.css' rel='stylesheet' />
   <link rel='stylesheet' href='css/font-awesome/css/font-awesome.min.css'>
   <link rel='stylesheet' href='css/fonts/mplus.css'>
-  <title>geojson.io</title>
+  <title>世界資訊網</title>
   <link href='lib/draw/leaflet.draw.css' rel='stylesheet' />
   <link href='lib/codemirror/lib/codemirror.css' rel='stylesheet' />
   <link href='css/base.css' rel='stylesheet' />
@@ -73,16 +73,53 @@
   }
   </script>
   <style>
-  /*
-   * http://seclab.stanford.edu/websec/framebusting/framebust.pdf
-   */
-  body { display: none; }
+  div.intitle{
+  font-size:3em;
+  text-align:center;
+  position: relative;
+  top: -115px;
+  left: 40px;
+
+}
+div.logo{
+  display:block;
+}
+div.select{
+  text-align:right;
+  position: relative;
+  top: -100px;
+  background-color:rgba(255,255,255,0.50);
+  }
+
+body {
+  background-image:url( 'http://image5.tuku.cn/wallpaper/Landscape%20Wallpapers/9777_2560x1600.jpg');
+  background-size:100vw 100vh;
+  background-repeat: no-repeat;
+}
   </style>
 </head>
-<body id='geojsonio-body'>
-
-<div class='geojsonio'></div>
-
+<body id='geojsonio-body'style="
+    position: absolute;
+    top: 180px;
+    height: 74%;
+    width: 100%;
+">
+<div class='geojsonio' >
+<div class="logo"style="
+    position: absolute;
+    top: -180px;
+">
+  <img src="3d-Earth-Globe.svg" width="150">
+  <div class="intitle ">
+	<font face="cursive"style="
+    position: absolute;
+    left: 100px;
+	top: 20px;
+	width: 100%;
+">World Information</font>
+  </div>
+</div>
+</div>
 <script>
 if (self == top) {
   document.getElementsByTagName ("body")[0].style.display = 'block';
