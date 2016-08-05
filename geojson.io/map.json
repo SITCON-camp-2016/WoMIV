@@ -1422,7 +1422,8 @@
       "type": "Feature",
       "id": "ATA",
       "properties": {
-        "name": "Antarctica"
+        "name": "Antarctica",
+		"fill": "#000000"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8670,7 +8671,8 @@
       "type": "Feature",
       "id": "CAN",
       "properties": {
-        "name": "Canada"
+        "name": "Canada",
+		"fill": "#CCFF33"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -19503,7 +19505,8 @@
       "type": "Feature",
       "id": "GRL",
       "properties": {
-        "name": "Greenland"
+        "name": "Greenland",
+		"fill": "#00FFFF"
       },
       "geometry": {
         "type": "Polygon",
@@ -34282,7 +34285,8 @@
       "type": "Feature",
       "id": "RUS",
       "properties": {
-        "name": "Russia"
+        "name": "Russia",
+		"fill": "#FF00FF"
       },
       "geometry": {
         "type": "MultiPolygon",
