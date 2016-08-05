@@ -16,10 +16,11 @@
     top:0;
     bottom:0;
     left:0;
-    right:40%;
+    right:0;
 }
 
 .right {
+	display: none;
     overflow-x:hidden;
     position:absolute;
     bottom:0;
@@ -307,6 +308,7 @@ th button:hover {
  */
 
 .layer-switch {
+	display: none;
     position:absolute;
     bottom:0px;
     left:0px;
@@ -335,6 +337,7 @@ textarea.full-width {
     height:40px;
     box-sizing:border-box;
     line-height:40px;
+	display:none;
 }
 
 .file-bar .name {
@@ -536,9 +539,10 @@ div.children a {
         display:none;
     }
     .share, .download, .map {
-        right:50%;
+        right:0%;
     }
     .right {
+		display: none;
         width:50%;
     }
     .file-bar {
