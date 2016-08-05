@@ -12557,6 +12557,7 @@
       "id": "CHN",
       "properties": {
         "name": "China"
+		"fill": "#FF0000"
       },
       "geometry": {
         "type": "MultiPolygon",
