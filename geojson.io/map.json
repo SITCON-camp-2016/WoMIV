@@ -12556,7 +12556,7 @@
       "type": "Feature",
       "id": "CHN",
       "properties": {
-        "name": "China"
+        "name": "China",
 		"fill": "#FF0000"
       },
       "geometry": {
